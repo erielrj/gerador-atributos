@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.highlight {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.reset-button {
+    background-color: #6c757d; /* Botão de resetar em cinza */
+    margin-left: 10px; /* Espaçamento entre os botões */
+}
+
+.reset-button:hover {
+    background-color: #5a6268; /* Cor do botão de resetar ao passar o mouse */
+}
+
+button:disabled {
+    background-color: gray; /* Cor de fundo cinza */
+    color: white;           /* Cor do texto */
+    cursor: not-allowed;    /* Cursor em forma de não permitido */
+    opacity: 0.6;           /* Opacidade para dar um efeito de desabilitado */
+}
